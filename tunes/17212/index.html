@@ -54,7 +54,7 @@ reel</span>
 <article id="settings" aria-labelledby="settingcount">
 
 <h2 id="settingcount">
-One setting</h2>
+Two settings</h2>
 
 
 <abc-render-collection>
@@ -129,6 +129,78 @@ Added by Emmanuel Delahaye on <time datetime="2018-08-31 14:51:01">August 31st, 
 
 </article><!-- /.setting.light -->
 
+<article class="setting light" id="setting57582" aria-label="Setting 2">
+
+<div class="aside">2</div><!-- /.aside -->
+
+<tab-controls role="tablist" class="requiresJS">
+<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="abc2" id="setting57582-abctab">ABC</button>
+<abc-render-button data-notes_id="notes2" data-canvas_id="sheetmusic-canvas2">
+<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="sheetmusic2" id="57582-sheetmusictab">sheet music</button>
+</abc-render-button>
+</tab-controls><!-- /@tablist.requiresJS -->
+
+<div role="tabpanel" class="setting-abc" id="abc2" aria-labelledby="setting57582-abctab" aria-hidden="false">
+<div class="notes">
+<abbr title="Number">X</abbr>: 2<br>
+<abbr title="Title">T</abbr>: Bliss In Connaught<br>
+<abbr title="Type">R</abbr>: reel<div id="notes2">
+<abbr title="Meter">M</abbr>: 4/4<br>
+<abbr title="Length">L</abbr>: 1/8<br>
+<abbr title="Key">K</abbr>: Gmaj<br>
+|:G2BG dBAG|AEEE c2 BA|G3B DGBD|FADF Accd|<br>
+BGEF GABE|FBB^c de (f/g/a)|g3e cBAG|1 FDAF G2DE:|2 FDAF G2Bd||<br>
+|:g3b a3b|gabg e2dc|BABA Ecec|BABA Ddfa|<br>
+g4 a3b|gabg e2dB|AE (E/E/E) ABce|1 dcAB G2Bd:|2 dcAB G2DE||</div><!-- /#notes2 -->
+</div><!-- /.notes -->
+
+<div class="setting-metadata">
+<div class="setting-action">
+<button-clipboard data-copyelement="#abc2 .notes" data-feedback="copied">
+<button type="button" class="action clipboard requiresJS">copy ABC</button>
+</button-clipboard>
+</div><!-- /.setting-action-->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#abc2.setting-abc @tabpanel -->
+
+<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic2" aria-labelledby="setting57582-sheetmusictab" aria-hidden="true">
+<div id="sheetmusic-canvas2" class="requiresJS">
+</div><!-- /#sheetmusic-canvas2 -->
+
+<div class="setting-metadata">
+<aria-toggle class="setting-action">
+<abc-player data-notes_id="notes2" class="requiresJS" id="player2">
+<button class="action play" aria-controls="controls_player2" aria-expanded="false">Play audio</button>
+<div id="controls_player2" aria-hidden="true" class="clapperboard feedback" aria-label="playing options" role="menu">
+<div class="discrete detail bill-item">
+<div class="bill-item-title">
+<label for="tempo_player2">tempo</label>
+<input id="tempo_player2" style="width: 95%" type="range" min="-10" max="2" value="0">
+</div><!-- /.bill-item-title -->
+<div class="bill-item-cost">
+<label for="repeat_player2">repeat</label>
+<input id="repeat_player2" type="checkbox">
+</div><!-- /.bill-item-cost -->
+</div><!-- /.bill-item.detail.discrete -->
+</div><!-- /#controls_player2.clapperboard.feedback -->
+</abc-player><!-- /#player2.requiresJS -->
+</aria-toggle><!-- /.setting-action -->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#sheetmusic2.setting-sheetmusic @tabpanel -->
+
+
+<footer class="setting-metadata">
+<small class="discrete">
+<a href="#setting57582" title="link to this setting">↳</a>
+Added by Fabio Fiddle on <time datetime="2026-07-04 19:16:14">July 4th, 2026</time>.
+</small><!-- /.discrete -->
+
+</footer><!-- /.setting-metadata -->
+
+</article><!-- /.setting.light -->
+
 
 </abc-render-collection>
 
@@ -137,7 +209,7 @@ Added by Emmanuel Delahaye on <time datetime="2018-08-31 14:51:01">August 31st, 
 
 <article id="comments" class="h-feed" aria-labelledby="commentcount">
 <h2 class="p-name" id="commentcount">
-One comment</h2>
+Two comments</h2>
 
 <article id="comment852428" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
 <h3 class="feed-entry-title p-name" itemprop="name">Bliss In Connaught</h3>
@@ -156,6 +228,28 @@ on
 </span><!-- /.feed-entry-author.p-author.h-card -->
 <time class="dt-published" itemprop="datePublished" datetime="2018-08-31 14:51:02">
 August 31st, 2018</time>.
+</small><!-- /.discrete -->
+</footer>
+</article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
+
+
+<article id="comment1033503" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
+<h3 class="feed-entry-title p-name" itemprop="name">Bliss In Connaught, X:2</h3>
+<div class="e-content" itemprop="text">
+<p>
+…just a few minor corrections that do justice to Carlo’s work. Good music!</p>
+</div><!-- /.e-content -->
+<footer>
+<small class="discrete">
+<a rel="bookmark" class="u-url" itemprop="url" href="#comment1033503" title="link to this comment">↳</a>
+Posted by
+<span class="feed-entry-author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="fn nickname p-name">
+Fabio Fiddle</span>
+on
+</span><!-- /.feed-entry-author.p-author.h-card -->
+<time class="dt-published" itemprop="datePublished" datetime="2026-07-04 19:16:14">
+July 4th, 2026</time>.
 </small><!-- /.discrete -->
 </footer>
 </article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
