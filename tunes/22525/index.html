@@ -54,7 +54,7 @@ reel</span>
 <article id="settings" aria-labelledby="settingcount">
 
 <h2 id="settingcount">
-One setting</h2>
+Two settings</h2>
 
 
 <abc-render-collection>
@@ -129,6 +129,78 @@ Added by BanjoManDingo on <time datetime="2022-12-03 01:45:22">December 3rd, 202
 
 </article><!-- /.setting.light -->
 
+<article class="setting light" id="setting57711" aria-label="Setting 2">
+
+<div class="aside">2</div><!-- /.aside -->
+
+<tab-controls role="tablist" class="requiresJS">
+<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="abc2" id="setting57711-abctab">ABC</button>
+<abc-render-button data-notes_id="notes2" data-canvas_id="sheetmusic-canvas2">
+<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="sheetmusic2" id="57711-sheetmusictab">sheet music</button>
+</abc-render-button>
+</tab-controls><!-- /@tablist.requiresJS -->
+
+<div role="tabpanel" class="setting-abc" id="abc2" aria-labelledby="setting57711-abctab" aria-hidden="false">
+<div class="notes">
+<abbr title="Number">X</abbr>: 2<br>
+<abbr title="Title">T</abbr>: Emily's Buzz<br>
+<abbr title="Type">R</abbr>: reel<div id="notes2">
+<abbr title="Meter">M</abbr>: 4/4<br>
+<abbr title="Length">L</abbr>: 1/8<br>
+<abbr title="Key">K</abbr>: Dmin<br>
+|:ag|fd (3d/d/d/d dcAG|F/G/F DF EG,CE|FB,DF GC E/F/G|A=BcA dfeg<br>
+(3f/e/f/f fe dcAG|F/E/D EC DCA,G,|A,D D/D/D dcAG|1 F/E/D EC D2:|2 F/E/D EC D3G||<br>
+|:FA, (3A,/A,/A,/A, FGAc|(3B/A/B/B AB GFD2|e/f/g ag fdcA|GBAG FDCD|<br>
+FC (3C/C/C/C FGAc|(3B/A/B/B AB GFDC|A,D D/D/D dcAG|1 F/E/D EC D3G:|2 F/E/D EC D2||</div><!-- /#notes2 -->
+</div><!-- /.notes -->
+
+<div class="setting-metadata">
+<div class="setting-action">
+<button-clipboard data-copyelement="#abc2 .notes" data-feedback="copied">
+<button type="button" class="action clipboard requiresJS">copy ABC</button>
+</button-clipboard>
+</div><!-- /.setting-action-->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#abc2.setting-abc @tabpanel -->
+
+<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic2" aria-labelledby="setting57711-sheetmusictab" aria-hidden="true">
+<div id="sheetmusic-canvas2" class="requiresJS">
+</div><!-- /#sheetmusic-canvas2 -->
+
+<div class="setting-metadata">
+<aria-toggle class="setting-action">
+<abc-player data-notes_id="notes2" class="requiresJS" id="player2">
+<button class="action play" aria-controls="controls_player2" aria-expanded="false">Play audio</button>
+<div id="controls_player2" aria-hidden="true" class="clapperboard feedback" aria-label="playing options" role="menu">
+<div class="discrete detail bill-item">
+<div class="bill-item-title">
+<label for="tempo_player2">tempo</label>
+<input id="tempo_player2" style="width: 95%" type="range" min="-10" max="2" value="0">
+</div><!-- /.bill-item-title -->
+<div class="bill-item-cost">
+<label for="repeat_player2">repeat</label>
+<input id="repeat_player2" type="checkbox">
+</div><!-- /.bill-item-cost -->
+</div><!-- /.bill-item.detail.discrete -->
+</div><!-- /#controls_player2.clapperboard.feedback -->
+</abc-player><!-- /#player2.requiresJS -->
+</aria-toggle><!-- /.setting-action -->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#sheetmusic2.setting-sheetmusic @tabpanel -->
+
+
+<footer class="setting-metadata">
+<small class="discrete">
+<a href="#setting57711" title="link to this setting">↳</a>
+Added by Erik-Fiddler on <time datetime="2026-07-25 19:49:54">July 25th, 2026</time>.
+</small><!-- /.discrete -->
+
+</footer><!-- /.setting-metadata -->
+
+</article><!-- /.setting.light -->
+
 
 </abc-render-collection>
 
@@ -137,7 +209,7 @@ Added by BanjoManDingo on <time datetime="2022-12-03 01:45:22">December 3rd, 202
 
 <article id="comments" class="h-feed" aria-labelledby="commentcount">
 <h2 class="p-name" id="commentcount">
-One comment</h2>
+Two comments</h2>
 
 <article id="comment954158" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
 <h3 class="feed-entry-title p-name" itemprop="name">Emily’s Buzz</h3>
@@ -158,6 +230,29 @@ on
 </span><!-- /.feed-entry-author.p-author.h-card -->
 <time class="dt-published" itemprop="datePublished" datetime="2022-12-03 01:45:22">
 December 3rd, 2022</time>.
+</small><!-- /.discrete -->
+</footer>
+</article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
+
+
+<article id="comment1034428" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
+<h3 class="feed-entry-title p-name" itemprop="name">Re: Emily’s Buzz</h3>
+<div class="e-content" itemprop="text">
+<p>
+What an IRRESISTIBLE tune!  <br>
+…and with my name on it!  😉🤭</p>
+</div><!-- /.e-content -->
+<footer>
+<small class="discrete">
+<a rel="bookmark" class="u-url" itemprop="url" href="#comment1034428" title="link to this comment">↳</a>
+Posted by
+<span class="feed-entry-author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="fn nickname p-name">
+ELCBK</span>
+on
+</span><!-- /.feed-entry-author.p-author.h-card -->
+<time class="dt-published" itemprop="datePublished" datetime="2026-07-25 23:58:56">
+July 25th, 2026</time>.
 </small><!-- /.discrete -->
 </footer>
 </article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
