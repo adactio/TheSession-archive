@@ -47,34 +47,34 @@ html{-webkit-text-size-adjust:none;text-size-adjust:none;font-size:clamp(100%, 5
 <h1>The Session archive</h1>
 <small class="discrete">
 Last updated
-<time datetime="2026-07-26T08:19:30">
-July 26th, 2026</time>
+<time datetime="2026-08-02T09:05:48">
+August 2nd, 2026</time>
 </small><!-- /.discrete -->
 
 <ul class="manifest">
 <li class="manifest-item">
 <a class="manifest-item-title" href="tunes/index.html">
-Twenty-three thousand one hundred and eighty-eight tunes
+Twenty-three thousand two hundred and five tunes
 </a><!-- /.manifest-item-title -->
 </li><!-- /.manifest-item -->
 <li class="manifest-item">
 <a class="manifest-item-title" href="recordings/index.html">
-Seven thousand nine hundred and sixteen recordings
+Seven thousand nine hundred and twenty recordings
 </a><!-- /.manifest-item-title -->
 </li><!-- /.manifest-item -->
 <li class="manifest-item">
 <a class="manifest-item-title" href="sessions/index.html">
-Six thousand two hundred and fifty-nine sessions
+Six thousand two hundred and sixty-seven sessions
 </a><!-- /.manifest-item-title -->
 </li><!-- /.manifest-item -->
 <li class="manifest-item">
 <a class="manifest-item-title" href="events/index.html">
-Nine thousand one hundred and eleven events
+Nine thousand one hundred and fourteen events
 </a><!-- /.manifest-item-title -->
 </li><!-- /.manifest-item -->
 <li class="manifest-item">
 <a class="manifest-item-title" href="discussions/index.html">
-Forty-six thousand two hundred and fifty-seven discussions
+Forty-six thousand two hundred and seventy-four discussions
 </a><!-- /.manifest-item-title -->
 </li><!-- /.manifest-item -->
 </ul>
@@ -98,7 +98,7 @@ Forty-six thousand two hundred and fifty-seven discussions
 <select name="os0" id="subscription">
 <option value="Hundred">$100</option>
 <option value="Fifty">$ 50</option>
-<option value="Twenty" selected="">$ 20</option>
+<option value="Twenty" selected>$ 20</option>
 <option value="Tenner">$ 10</option>
 <option value="Fiver">$ 5</option>
 </select>
@@ -112,28 +112,23 @@ each month
 
 <p>Or…</p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<p>
+<label for="currency">Make a one-time donation</label>
+<form action="https://www.paypal.com/donate" method="get">
 <button type="submit">Donate</button>
-a one-time donation
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="6SVZ9JCTKJ8UA">
-<input type="hidden" name="business" value="jeremy@thesession.org">
-<input type="hidden" name="item_name" value="The Session">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="return" value="https://thesession.org/thanks">
-<input type="hidden" name="cancel_return" value="https://thesession.org/">
-<input type="hidden" name="no_note" value="1">
-<input type="hidden" name="currency_code" value="USD">
-<input type="hidden" name="tax" value="0">
-<input type="hidden" name="lc" value="US">
-</p>
+<select name="hosted_button_id" id="currency">
+<option value="6SVZ9JCTKJ8UA" title="U S dollars">USD $</option>
+<option value="GY78DVG42BCHU" title="Euros">EUR €</option>
+<option value="WQV7AEF9EF6YW" title="British pounds">GBP £</option>
+<option value="9ST4PGNCDMRZA" title="Canadian dollars">CAD $</option>
+<option value="MMZP7MWH9P9C6" title="Australian dollars">AUD $</option>
+</select>
+of any amount
 </form>
 
 <p>Or…</p>
 
 <p><a class="button" href="https://www.patreon.com/join/the_session?">Become a patron</a>
-for $5, $10, or $20 dollars a month.</p></article>
+for $5, $10, or $20 a month.</p>
 
 </div><!-- /.contents -->
 </main>
