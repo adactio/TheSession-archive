@@ -54,7 +54,7 @@ reel</span>
 <article id="settings" aria-labelledby="settingcount">
 
 <h2 id="settingcount">
-Two settings</h2>
+Three settings</h2>
 
 
 <abc-render-collection>
@@ -203,6 +203,78 @@ Added by Damien Rogeau on <time datetime="2021-08-20 08:35:52">August 20th, 2021
 
 </article><!-- /.setting.light -->
 
+<article class="setting light" id="setting57790" aria-label="Setting 3">
+
+<div class="aside">3</div><!-- /.aside -->
+
+<tab-controls role="tablist" class="requiresJS">
+<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="abc3" id="setting57790-abctab">ABC</button>
+<abc-render-button data-notes_id="notes3" data-canvas_id="sheetmusic-canvas3">
+<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="sheetmusic3" id="57790-sheetmusictab">sheet music</button>
+</abc-render-button>
+</tab-controls><!-- /@tablist.requiresJS -->
+
+<div role="tabpanel" class="setting-abc" id="abc3" aria-labelledby="setting57790-abctab" aria-hidden="false">
+<div class="notes">
+<abbr title="Number">X</abbr>: 3<br>
+<abbr title="Title">T</abbr>: Lady Isabella<br>
+<abbr title="Type">R</abbr>: reel<div id="notes3">
+<abbr title="Meter">M</abbr>: 4/4<br>
+<abbr title="Length">L</abbr>: 1/8<br>
+<abbr title="Key">K</abbr>: Bmin<br>
+|:FBBc dcBA|FBBc dec2-|cBce fedc|defb zB=cB|<br>
+FBBc dcBA|efdf edc2-|cdeA zAcA|1 cdB2 zFFE:|2 cdB2 zBBA||<br>
+|:BffB fgBg|aBag fede-|e3d efaf|-fefa ffed|<br>
+BffB fgBg|aBag fede|cdea zAcA|1 cddc dfdc:|2 cdB2 zffe||</div><!-- /#notes3 -->
+</div><!-- /.notes -->
+
+<div class="setting-metadata">
+<div class="setting-action">
+<button-clipboard data-copyelement="#abc3 .notes" data-feedback="copied">
+<button type="button" class="action clipboard requiresJS">copy ABC</button>
+</button-clipboard>
+</div><!-- /.setting-action-->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#abc3.setting-abc @tabpanel -->
+
+<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic3" aria-labelledby="setting57790-sheetmusictab" aria-hidden="true">
+<div id="sheetmusic-canvas3" class="requiresJS">
+</div><!-- /#sheetmusic-canvas3 -->
+
+<div class="setting-metadata">
+<aria-toggle class="setting-action">
+<abc-player data-notes_id="notes3" class="requiresJS" id="player3">
+<button class="action play" aria-controls="controls_player3" aria-expanded="false">Play audio</button>
+<div id="controls_player3" aria-hidden="true" class="clapperboard feedback" aria-label="playing options" role="menu">
+<div class="discrete detail bill-item">
+<div class="bill-item-title">
+<label for="tempo_player3">tempo</label>
+<input id="tempo_player3" style="width: 95%" type="range" min="-10" max="2" value="0">
+</div><!-- /.bill-item-title -->
+<div class="bill-item-cost">
+<label for="repeat_player3">repeat</label>
+<input id="repeat_player3" type="checkbox">
+</div><!-- /.bill-item-cost -->
+</div><!-- /.bill-item.detail.discrete -->
+</div><!-- /#controls_player3.clapperboard.feedback -->
+</abc-player><!-- /#player3.requiresJS -->
+</aria-toggle><!-- /.setting-action -->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#sheetmusic3.setting-sheetmusic @tabpanel -->
+
+
+<footer class="setting-metadata">
+<small class="discrete">
+<a href="#setting57790" title="link to this setting">↳</a>
+Added by benhockenberry on <time datetime="2026-08-06 13:44:53">August 6th, 2026</time>.
+</small><!-- /.discrete -->
+
+</footer><!-- /.setting-metadata -->
+
+</article><!-- /.setting.light -->
+
 
 </abc-render-collection>
 
@@ -211,7 +283,7 @@ Added by Damien Rogeau on <time datetime="2021-08-20 08:35:52">August 20th, 2021
 
 <article id="comments" class="h-feed" aria-labelledby="commentcount">
 <h2 class="p-name" id="commentcount">
-Two comments</h2>
+Three comments</h2>
 
 <article id="comment925978" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
 <h3 class="feed-entry-title p-name" itemprop="name">Lady Isabella</h3>
@@ -253,6 +325,28 @@ on
 </span><!-- /.feed-entry-author.p-author.h-card -->
 <time class="dt-published" itemprop="datePublished" datetime="2021-08-20 08:35:52">
 August 20th, 2021</time>.
+</small><!-- /.discrete -->
+</footer>
+</article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
+
+
+<article id="comment1034991" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
+<h3 class="feed-entry-title p-name" itemprop="name">Lady Isabella, X:3</h3>
+<div class="e-content" itemprop="text">
+<p>
+Here’s a B minor setting, for the C whistle.</p>
+</div><!-- /.e-content -->
+<footer>
+<small class="discrete">
+<a rel="bookmark" class="u-url" itemprop="url" href="#comment1034991" title="link to this comment">↳</a>
+Posted by
+<span class="feed-entry-author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="fn nickname p-name">
+benhockenberry</span>
+on
+</span><!-- /.feed-entry-author.p-author.h-card -->
+<time class="dt-published" itemprop="datePublished" datetime="2026-08-06 13:44:53">
+August 6th, 2026</time>.
 </small><!-- /.discrete -->
 </footer>
 </article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->

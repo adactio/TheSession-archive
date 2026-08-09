@@ -54,7 +54,7 @@ jig</span>
 <article id="settings" aria-labelledby="settingcount">
 
 <h2 id="settingcount">
-Two settings</h2>
+Three settings</h2>
 
 
 <abc-render-collection>
@@ -199,6 +199,78 @@ Added by sebastian the m3g4p0p on <time datetime="2014-11-17 12:34:28">November 
 
 </article><!-- /.setting.light -->
 
+<article class="setting light" id="setting57796" aria-label="Setting 3">
+
+<div class="aside">3</div><!-- /.aside -->
+
+<tab-controls role="tablist" class="requiresJS">
+<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="abc3" id="setting57796-abctab">ABC</button>
+<abc-render-button data-notes_id="notes3" data-canvas_id="sheetmusic-canvas3">
+<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="sheetmusic3" id="57796-sheetmusictab">sheet music</button>
+</abc-render-button>
+</tab-controls><!-- /@tablist.requiresJS -->
+
+<div role="tabpanel" class="setting-abc" id="abc3" aria-labelledby="setting57796-abctab" aria-hidden="false">
+<div class="notes">
+<abbr title="Number">X</abbr>: 3<br>
+<abbr title="Title">T</abbr>: The Trip To Clarina<br>
+<abbr title="Type">R</abbr>: jig<div id="notes3">
+<abbr title="Meter">M</abbr>: 6/8<br>
+<abbr title="Length">L</abbr>: 1/8<br>
+<abbr title="Key">K</abbr>: Edor<br>
+|:GEF G2B|ABA FED|GEF Gge|dBA BEE|<br>
+GEF G2B|ABA FED|EFG B=cB|AFD E3:|<br>
+|:GFE efe|dBc def|EGB efe|dBc ~d2f|<br>
+efe ~d2B|AFD FED|EFG B=cB|AFD E3:|</div><!-- /#notes3 -->
+</div><!-- /.notes -->
+
+<div class="setting-metadata">
+<div class="setting-action">
+<button-clipboard data-copyelement="#abc3 .notes" data-feedback="copied">
+<button type="button" class="action clipboard requiresJS">copy ABC</button>
+</button-clipboard>
+</div><!-- /.setting-action-->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#abc3.setting-abc @tabpanel -->
+
+<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic3" aria-labelledby="setting57796-sheetmusictab" aria-hidden="true">
+<div id="sheetmusic-canvas3" class="requiresJS">
+</div><!-- /#sheetmusic-canvas3 -->
+
+<div class="setting-metadata">
+<aria-toggle class="setting-action">
+<abc-player data-notes_id="notes3" class="requiresJS" id="player3">
+<button class="action play" aria-controls="controls_player3" aria-expanded="false">Play audio</button>
+<div id="controls_player3" aria-hidden="true" class="clapperboard feedback" aria-label="playing options" role="menu">
+<div class="discrete detail bill-item">
+<div class="bill-item-title">
+<label for="tempo_player3">tempo</label>
+<input id="tempo_player3" style="width: 95%" type="range" min="-10" max="2" value="0">
+</div><!-- /.bill-item-title -->
+<div class="bill-item-cost">
+<label for="repeat_player3">repeat</label>
+<input id="repeat_player3" type="checkbox">
+</div><!-- /.bill-item-cost -->
+</div><!-- /.bill-item.detail.discrete -->
+</div><!-- /#controls_player3.clapperboard.feedback -->
+</abc-player><!-- /#player3.requiresJS -->
+</aria-toggle><!-- /.setting-action -->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#sheetmusic3.setting-sheetmusic @tabpanel -->
+
+
+<footer class="setting-metadata">
+<small class="discrete">
+<a href="#setting57796" title="link to this setting">↳</a>
+Added by bravesentry on <time datetime="2026-08-07 05:58:08">August 7th, 2026</time>.
+</small><!-- /.discrete -->
+
+</footer><!-- /.setting-metadata -->
+
+</article><!-- /.setting.light -->
+
 
 </abc-render-collection>
 
@@ -207,7 +279,7 @@ Added by sebastian the m3g4p0p on <time datetime="2014-11-17 12:34:28">November 
 
 <article id="comments" class="h-feed" aria-labelledby="commentcount">
 <h2 class="p-name" id="commentcount">
-Four comments</h2>
+Five comments</h2>
 
 <article id="comment743369" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
 <h3 class="feed-entry-title p-name" itemprop="name">The Trip To Clarina</h3>
@@ -296,6 +368,28 @@ on
 </span><!-- /.feed-entry-author.p-author.h-card -->
 <time class="dt-published" itemprop="datePublished" datetime="2014-11-17 14:42:19">
 November 17th, 2014</time>.
+</small><!-- /.discrete -->
+</footer>
+</article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
+
+
+<article id="comment1035020" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
+<h3 class="feed-entry-title p-name" itemprop="name">The Trip To Clarina, X:3</h3>
+<div class="e-content" itemprop="text">
+<p>
+As played here by Danú: https://www.youtube.com/watch?v=859Dau-TYTI</p>
+</div><!-- /.e-content -->
+<footer>
+<small class="discrete">
+<a rel="bookmark" class="u-url" itemprop="url" href="#comment1035020" title="link to this comment">↳</a>
+Posted by
+<span class="feed-entry-author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="fn nickname p-name">
+bravesentry</span>
+on
+</span><!-- /.feed-entry-author.p-author.h-card -->
+<time class="dt-published" itemprop="datePublished" datetime="2026-08-07 05:58:08">
+August 7th, 2026</time>.
 </small><!-- /.discrete -->
 </footer>
 </article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
