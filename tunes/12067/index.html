@@ -56,7 +56,7 @@ Sörens Vals.</p><!-- /.info -->
 <article id="settings" aria-labelledby="settingcount">
 
 <h2 id="settingcount">
-One setting</h2>
+Two settings</h2>
 
 
 <abc-render-collection>
@@ -131,6 +131,78 @@ Added by Rachael on <time datetime="2012-07-15 15:53:51">July 15th, 2012</time>.
 
 </article><!-- /.setting.light -->
 
+<article class="setting light" id="setting58165" aria-label="Setting 2">
+
+<div class="aside">2</div><!-- /.aside -->
+
+<tab-controls role="tablist" class="requiresJS">
+<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="abc2" id="setting58165-abctab">ABC</button>
+<abc-render-button data-notes_id="notes2" data-canvas_id="sheetmusic-canvas2">
+<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="sheetmusic2" id="58165-sheetmusictab">sheet music</button>
+</abc-render-button>
+</tab-controls><!-- /@tablist.requiresJS -->
+
+<div role="tabpanel" class="setting-abc" id="abc2" aria-labelledby="setting58165-abctab" aria-hidden="false">
+<div class="notes">
+<abbr title="Number">X</abbr>: 2<br>
+<abbr title="Title">T</abbr>: Soren's<br>
+<abbr title="Type">R</abbr>: waltz<div id="notes2">
+<abbr title="Meter">M</abbr>: 3/4<br>
+<abbr title="Length">L</abbr>: 1/8<br>
+<abbr title="Key">K</abbr>: Bmin<br>
+|:EFG Bde|cBA BcA|BGE FGE|AFD AGF|<br>
+EFG Bde|cBA BcA|BGE AFG|E3 E3:|<br>
+|:dcB cde|cBA edc|BFB cde|f3 edc|BFB cde|<br>
+cBA edc|1 fdB ecd|B3 B3:|2 fdB ecA|B3 B3||</div><!-- /#notes2 -->
+</div><!-- /.notes -->
+
+<div class="setting-metadata">
+<div class="setting-action">
+<button-clipboard data-copyelement="#abc2 .notes" data-feedback="copied">
+<button type="button" class="action clipboard requiresJS">copy ABC</button>
+</button-clipboard>
+</div><!-- /.setting-action-->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#abc2.setting-abc @tabpanel -->
+
+<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic2" aria-labelledby="setting58165-sheetmusictab" aria-hidden="true">
+<div id="sheetmusic-canvas2" class="requiresJS">
+</div><!-- /#sheetmusic-canvas2 -->
+
+<div class="setting-metadata">
+<aria-toggle class="setting-action">
+<abc-player data-notes_id="notes2" class="requiresJS" id="player2">
+<button class="action play" aria-controls="controls_player2" aria-expanded="false">Play audio</button>
+<div id="controls_player2" aria-hidden="true" class="clapperboard feedback" aria-label="playing options" role="menu">
+<div class="discrete detail bill-item">
+<div class="bill-item-title">
+<label for="tempo_player2">tempo</label>
+<input id="tempo_player2" style="width: 95%" type="range" min="-10" max="2" value="0">
+</div><!-- /.bill-item-title -->
+<div class="bill-item-cost">
+<label for="repeat_player2">repeat</label>
+<input id="repeat_player2" type="checkbox">
+</div><!-- /.bill-item-cost -->
+</div><!-- /.bill-item.detail.discrete -->
+</div><!-- /#controls_player2.clapperboard.feedback -->
+</abc-player><!-- /#player2.requiresJS -->
+</aria-toggle><!-- /.setting-action -->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#sheetmusic2.setting-sheetmusic @tabpanel -->
+
+
+<footer class="setting-metadata">
+<small class="discrete">
+<a href="#setting58165" title="link to this setting">↳</a>
+Added by MennoNL on <time datetime="2026-09-15 21:32:11">September 15th, 2026</time>.
+</small><!-- /.discrete -->
+
+</footer><!-- /.setting-metadata -->
+
+</article><!-- /.setting.light -->
+
 
 </abc-render-collection>
 
@@ -139,7 +211,7 @@ Added by Rachael on <time datetime="2012-07-15 15:53:51">July 15th, 2012</time>.
 
 <article id="comments" class="h-feed" aria-labelledby="commentcount">
 <h2 class="p-name" id="commentcount">
-Nine comments</h2>
+Ten comments</h2>
 
 <article id="comment648372" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
 <h3 class="feed-entry-title p-name" itemprop="name">Beautiful Waltz</h3>
@@ -349,6 +421,28 @@ on
 </span><!-- /.feed-entry-author.p-author.h-card -->
 <time class="dt-published" itemprop="datePublished" datetime="2023-05-07 14:51:46">
 May 7th, 2023</time>.
+</small><!-- /.discrete -->
+</footer>
+</article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
+
+
+<article id="comment1037014" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
+<h3 class="feed-entry-title p-name" itemprop="name">Soren’s, X:2</h3>
+<div class="e-content" itemprop="text">
+<p>
+Cleaned up a bit and made a bit better readable in the rhythm it’s played in.</p>
+</div><!-- /.e-content -->
+<footer>
+<small class="discrete">
+<a rel="bookmark" class="u-url" itemprop="url" href="#comment1037014" title="link to this comment">↳</a>
+Posted by
+<span class="feed-entry-author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="fn nickname p-name">
+MennoNL</span>
+on
+</span><!-- /.feed-entry-author.p-author.h-card -->
+<time class="dt-published" itemprop="datePublished" datetime="2026-09-15 21:32:11">
+September 15th, 2026</time>.
 </small><!-- /.discrete -->
 </footer>
 </article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
