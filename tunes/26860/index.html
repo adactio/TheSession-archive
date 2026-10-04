@@ -54,7 +54,7 @@ jig</span>
 <article id="settings" aria-labelledby="settingcount">
 
 <h2 id="settingcount">
-One setting</h2>
+Two settings</h2>
 
 
 <abc-render-collection>
@@ -78,10 +78,10 @@ One setting</h2>
 <abbr title="Meter">M</abbr>: 6/8<br>
 <abbr title="Length">L</abbr>: 1/8<br>
 <abbr title="Key">K</abbr>: Dmin<br>
-|:DEF A2G|F2E D3|DEF B2A|GAB AAA|<br>
-DEF B2A|GAB AAG|FEF ABA|GFE D3:|<br>
-|:FED ^CDE|GEG FED|ABA ABA|GFE FED|<br>
-FED ^CDE|GEG FED|ABA ABA|GFE D3:|</div><!-- /#notes1 -->
+DEF|:A2G F2E |D3 DEF|B2A GAB|AAA DEF|<br>
+B2A GAB|AAG FEF|ABA GFE|1 D3 DEF:|2 D3 FED||<br>
+|:^CDE GEG|FED ABA|ABA GFE|FED FED|<br>
+^CDE GEG|FED ABA|ABA GFE|1 D3 FED:|2 D3DEF||</div><!-- /#notes1 -->
 </div><!-- /.notes -->
 
 <div class="setting-metadata">
@@ -131,6 +131,78 @@ Added by Anthony Leibold  on <time datetime="2026-09-20 18:15:55">September 20th
 
 </article><!-- /.setting.light -->
 
+<article class="setting light" id="setting58233" aria-label="Setting 2">
+
+<div class="aside">2</div><!-- /.aside -->
+
+<tab-controls role="tablist" class="requiresJS">
+<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="abc2" id="setting58233-abctab">ABC</button>
+<abc-render-button data-notes_id="notes2" data-canvas_id="sheetmusic-canvas2">
+<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="sheetmusic2" id="58233-sheetmusictab">sheet music</button>
+</abc-render-button>
+</tab-controls><!-- /@tablist.requiresJS -->
+
+<div role="tabpanel" class="setting-abc" id="abc2" aria-labelledby="setting58233-abctab" aria-hidden="false">
+<div class="notes">
+<abbr title="Number">X</abbr>: 2<br>
+<abbr title="Title">T</abbr>: Muiñeira De Ramelle<br>
+<abbr title="Type">R</abbr>: jig<div id="notes2">
+<abbr title="Meter">M</abbr>: 6/8<br>
+<abbr title="Length">L</abbr>: 1/8<br>
+<abbr title="Key">K</abbr>: Dmin<br>
+DEF |: A2 G F2 E | D3 DEF | B2 A GAB | A3 DEF |<br>
+B2 A GAB | A2 G FEF |$ ABA GFE |1 D3 DEF :|2 D&gt;FE D^CD ||<br>
+|: ^CEF GFG | FED ABA | ABA GFE | FED FED |<br>
+^CEF GFG | FED ABA |1 ABA GFE | D3 FED :|2 ABA GFE | D3 DEF ||</div><!-- /#notes2 -->
+</div><!-- /.notes -->
+
+<div class="setting-metadata">
+<div class="setting-action">
+<button-clipboard data-copyelement="#abc2 .notes" data-feedback="copied">
+<button type="button" class="action clipboard requiresJS">copy ABC</button>
+</button-clipboard>
+</div><!-- /.setting-action-->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#abc2.setting-abc @tabpanel -->
+
+<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic2" aria-labelledby="setting58233-sheetmusictab" aria-hidden="true">
+<div id="sheetmusic-canvas2" class="requiresJS">
+</div><!-- /#sheetmusic-canvas2 -->
+
+<div class="setting-metadata">
+<aria-toggle class="setting-action">
+<abc-player data-notes_id="notes2" class="requiresJS" id="player2">
+<button class="action play" aria-controls="controls_player2" aria-expanded="false">Play audio</button>
+<div id="controls_player2" aria-hidden="true" class="clapperboard feedback" aria-label="playing options" role="menu">
+<div class="discrete detail bill-item">
+<div class="bill-item-title">
+<label for="tempo_player2">tempo</label>
+<input id="tempo_player2" style="width: 95%" type="range" min="-10" max="2" value="0">
+</div><!-- /.bill-item-title -->
+<div class="bill-item-cost">
+<label for="repeat_player2">repeat</label>
+<input id="repeat_player2" type="checkbox">
+</div><!-- /.bill-item-cost -->
+</div><!-- /.bill-item.detail.discrete -->
+</div><!-- /#controls_player2.clapperboard.feedback -->
+</abc-player><!-- /#player2.requiresJS -->
+</aria-toggle><!-- /.setting-action -->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#sheetmusic2.setting-sheetmusic @tabpanel -->
+
+
+<footer class="setting-metadata">
+<small class="discrete">
+<a href="#setting58233" title="link to this setting">↳</a>
+Added by bagpie on <time datetime="2026-09-27 09:05:37">September 27th, 2026</time>.
+</small><!-- /.discrete -->
+
+</footer><!-- /.setting-metadata -->
+
+</article><!-- /.setting.light -->
+
 
 </abc-render-collection>
 
@@ -139,7 +211,7 @@ Added by Anthony Leibold  on <time datetime="2026-09-20 18:15:55">September 20th
 
 <article id="comments" class="h-feed" aria-labelledby="commentcount">
 <h2 class="p-name" id="commentcount">
-One comment</h2>
+Three comments</h2>
 
 <article id="comment1037282" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
 <h3 class="feed-entry-title p-name" itemprop="name">Muñeira De Ramelle</h3>
@@ -158,6 +230,51 @@ on
 </span><!-- /.feed-entry-author.p-author.h-card -->
 <time class="dt-published" itemprop="datePublished" datetime="2026-09-20 18:15:55">
 September 20th, 2026</time>.
+</small><!-- /.discrete -->
+</footer>
+</article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
+
+
+<article id="comment1037676" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
+<h3 class="feed-entry-title p-name" itemprop="name">Muiñeira De Ramelle, X:2</h3>
+<div class="e-content" itemprop="text">
+<p>
+Hi Anthony. You have the bar lines in the wrong place. Muiñeiras often have a half bar anacrusis, and this tune is one of those. Here it is corrected, these dots are taken from Folkoteca Galego. <br>
+https://folkotecagalega.gal/pezas/muineiras/muineira-de-ramelle</p>
+</div><!-- /.e-content -->
+<footer>
+<small class="discrete">
+<a rel="bookmark" class="u-url" itemprop="url" href="#comment1037676" title="link to this comment">↳</a>
+Posted by
+<span class="feed-entry-author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="fn nickname p-name">
+bagpie</span>
+on
+</span><!-- /.feed-entry-author.p-author.h-card -->
+<time class="dt-published" itemprop="datePublished" datetime="2026-09-27 09:05:37">
+September 27th, 2026</time>.
+</small><!-- /.discrete -->
+</footer>
+</article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
+
+
+<article id="comment1037688" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
+<h3 class="feed-entry-title p-name" itemprop="name">Re: Muiñeira De Ramelle</h3>
+<div class="e-content" itemprop="text">
+<p>
+Bagpie, you’re a legend, thanks a bunch for that!</p>
+</div><!-- /.e-content -->
+<footer>
+<small class="discrete">
+<a rel="bookmark" class="u-url" itemprop="url" href="#comment1037688" title="link to this comment">↳</a>
+Posted by
+<span class="feed-entry-author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="fn nickname p-name">
+Anthony Leibold </span>
+on
+</span><!-- /.feed-entry-author.p-author.h-card -->
+<time class="dt-published" itemprop="datePublished" datetime="2026-09-27 11:35:52">
+September 27th, 2026</time>.
 </small><!-- /.discrete -->
 </footer>
 </article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
