@@ -698,11 +698,13 @@ Added by Erik-Fiddler on <time datetime="2025-07-20 02:29:02">July 20th, 2025</t
 <div class="aside">10</div><!-- /.aside -->
 
 <tab-controls role="tablist" class="requiresJS">
-<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="abc10" id="setting57249-abctab">ABC</button>
-<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="sheetmusic10" id="setting57249-sheetmusictab">sheet music</button>
+<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="abc10" id="setting57249-abctab">ABC</button>
+<abc-render-button data-notes_id="notes10" data-canvas_id="sheetmusic-canvas10">
+<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="sheetmusic10" id="57249-sheetmusictab">sheet music</button>
+</abc-render-button>
 </tab-controls><!-- /@tablist.requiresJS -->
 
-<div role="tabpanel" class="setting-abc" id="abc10" aria-labelledby="setting57249-abctab" aria-hidden="true">
+<div role="tabpanel" class="setting-abc" id="abc10" aria-labelledby="setting57249-abctab" aria-hidden="false">
 <div class="notes">
 <abbr title="Number">X</abbr>: 10<br>
 <abbr title="Title">T</abbr>: Paddy Taylor's<br>
@@ -728,18 +730,8 @@ Ad d2 dfed|B/c/d ef g2fg|afge d2 ^cA|B/c/d AG FDDE||<br>
 
 </div><!-- /#abc10.setting-abc @tabpanel -->
 
-<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic10" aria-labelledby="setting57249-sheetmusictab" aria-hidden="false">
-<div id="sheetmusic-canvas10" style="content-visibility: auto; contain-intrinsic-block-size: 570px; contain: layout paint">
-
-M: 4/4<br>
-L: 1/8<br>
-K: Gmajor<br>
-FEDF ABAF|GEcE dEcE|FEDF ABAF|GEcE EDDE|<br>
-FADE FAAF|GE ~E2 cE ~E2|FEDF ABAF|GEcE ED D2||<br>
-Ad{e}d^c d2 BA|Beed (3Bcd eg| f2 e^c d2 ^cA|(3Bcd AG FDD|<br>
-Ad d2 dfed|B/c/d ef g2fg|afge d2 ^cA|B/c/d AG FDDE||<br>
-~F3 G A2dG|~G2 dG FGdG|RF3 G A2 d^c|A2 GE EDDE|<br>
- ~F3 G A2dG|~G2 dG ~G2 dG|~F3 G Add^c|A2 GE EDD||
+<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic10" aria-labelledby="setting57249-sheetmusictab" aria-hidden="true">
+<div id="sheetmusic-canvas10" class="requiresJS">
 </div><!-- /#sheetmusic-canvas10 -->
 
 <div class="setting-metadata">
