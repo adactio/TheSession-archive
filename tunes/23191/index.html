@@ -54,7 +54,7 @@ polka</span>
 <article id="settings" aria-labelledby="settingcount">
 
 <h2 id="settingcount">
-One setting</h2>
+Two settings</h2>
 
 
 <abc-render-collection>
@@ -129,6 +129,92 @@ Added by Harald Wellmann on <time datetime="2023-05-29 15:31:39">May 29th, 2023<
 
 </article><!-- /.setting.light -->
 
+<article class="setting light" id="setting58565" aria-label="Setting 2">
+
+<div class="aside">2</div><!-- /.aside -->
+
+<tab-controls role="tablist" class="requiresJS">
+<button role="tab" class="button tabbed" aria-selected="true" aria-expanded="true" aria-controls="abc2" id="setting58565-abctab">ABC</button>
+<abc-render-button data-notes_id="notes2" data-canvas_id="sheetmusic-canvas2">
+<button role="tab" class="button tabbed" aria-selected="false" aria-expanded="false" aria-controls="sheetmusic2" id="58565-sheetmusictab">sheet music</button>
+</abc-render-button>
+</tab-controls><!-- /@tablist.requiresJS -->
+
+<div role="tabpanel" class="setting-abc" id="abc2" aria-labelledby="setting58565-abctab" aria-hidden="false">
+<div class="notes">
+<abbr title="Number">X</abbr>: 2<br>
+<abbr title="Title">T</abbr>: De Montford<br>
+<abbr title="Type">R</abbr>: polka<div id="notes2">
+<abbr title="Meter">M</abbr>: 2/4<br>
+<abbr title="Length">L</abbr>: 1/8<br>
+<abbr title="Key">K</abbr>: Gmin<br>
+V:1 treble<br>
+V:2 treble<br>
+V:3 bass<br>
+V:1<br>
+|: Gd- dG | e2 Gd- | dB cd | cB AB | Gd- dG | e2 Gd- | dB cd | c4 :| <br>
+|: A&gt;B cA- | Ac BA | B&gt;A GB- | B/A/G AB | A&gt;B cA- | Ac BA |1 .B2 c2 | d/e/d/c/ BA :|2 .B2 A2 | G4 ||<br>
+|: Gd- dG | e2 Gd- | dB cd | cB AB | Gd- dG | e2 Gd- | dB cd | c4 :| <br>
+|: A&gt;B cA- | Ac BA | B&gt;A GB- | B/A/G AB | A&gt;B cA- | Ac BA |1 .B2 c2 | d/e/d/c/ BA :|2 .B2 A2 | G4 ||<br>
+V:2<br>
+|: GB- BG | c2 GB- | BG AB | AG FG | GB- BG | c2 GB- | BG AB | A4 :| <br>
+|: F2 DF- | FE DC | E2 B,E- | E/F/E FG | F2 DF- | FE DC |1 D2 C2 | F/G/F/E/ DC :|2 D2 C2 | D4 ||<br>
+|: GB- BG | B2 GF- | FD EF | ED C2 | GB- BG | B2 GF- | F2 G2 | B2 A2 :| <br>
+|: F2 DF- | FE DC | E2 B,E- | E/F/E FG | F2 DF- | FE DC |1 D2 C2 | F/G/F/E/ DC :|2 D2 C2 | D4 ||<br>
+V:3<br>
+|: G,,3 G,,- | G,,2 G,,2- | G,,2 z2 | F,,4 | G,,3 G,,- | G,,2 G,,2- | G,,4 | F,,4 :| <br>
+|: D,2 D,2 | D,3 D, | C,2 C,2 | C,3 C, | D,2 D,2 | D,3 D, |1 E,2 F,2 | B,,4 :|2 E,,2 F,,2 | G,,4 ||<br>
+|: G,,2 G,,2 | C,4 | G,,3 G,, | F,,3 F,, | G,,2 G,,2 | C,4 | D,2 E,2 | F,4 :| <br>
+|: D,2 D,2 | D,3 D, | C,2 C,2 | C,3 C, | D,2 D,2 | D,3 D, |1 E,2 F,2 | B,,4 :| 2E,,2 F,,2 | G,,4 ||</div><!-- /#notes2 -->
+</div><!-- /.notes -->
+
+<div class="setting-metadata">
+<div class="setting-action">
+<button-clipboard data-copyelement="#abc2 .notes" data-feedback="copied">
+<button type="button" class="action clipboard requiresJS">copy ABC</button>
+</button-clipboard>
+</div><!-- /.setting-action-->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#abc2.setting-abc @tabpanel -->
+
+<div role="tabpanel" class="setting-sheetmusic" id="sheetmusic2" aria-labelledby="setting58565-sheetmusictab" aria-hidden="true">
+<div id="sheetmusic-canvas2" class="requiresJS">
+</div><!-- /#sheetmusic-canvas2 -->
+
+<div class="setting-metadata">
+<aria-toggle class="setting-action">
+<abc-player data-notes_id="notes2" class="requiresJS" id="player2">
+<button class="action play" aria-controls="controls_player2" aria-expanded="false">Play audio</button>
+<div id="controls_player2" aria-hidden="true" class="clapperboard feedback" aria-label="playing options" role="menu">
+<div class="discrete detail bill-item">
+<div class="bill-item-title">
+<label for="tempo_player2">tempo</label>
+<input id="tempo_player2" style="width: 95%" type="range" min="-10" max="2" value="0">
+</div><!-- /.bill-item-title -->
+<div class="bill-item-cost">
+<label for="repeat_player2">repeat</label>
+<input id="repeat_player2" type="checkbox">
+</div><!-- /.bill-item-cost -->
+</div><!-- /.bill-item.detail.discrete -->
+</div><!-- /#controls_player2.clapperboard.feedback -->
+</abc-player><!-- /#player2.requiresJS -->
+</aria-toggle><!-- /.setting-action -->
+</div><!-- /.setting-metadata -->
+
+</div><!-- /#sheetmusic2.setting-sheetmusic @tabpanel -->
+
+
+<footer class="setting-metadata">
+<small class="discrete">
+<a href="#setting58565" title="link to this setting">↳</a>
+Added by SonjaA on <time datetime="2026-11-05 10:24:50">November 5th, 2026</time>.
+</small><!-- /.discrete -->
+
+</footer><!-- /.setting-metadata -->
+
+</article><!-- /.setting.light -->
+
 
 </abc-render-collection>
 
@@ -137,7 +223,7 @@ Added by Harald Wellmann on <time datetime="2023-05-29 15:31:39">May 29th, 2023<
 
 <article id="comments" class="h-feed" aria-labelledby="commentcount">
 <h2 class="p-name" id="commentcount">
-One comment</h2>
+Two comments</h2>
 
 <article id="comment966831" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
 <h3 class="feed-entry-title p-name" itemprop="name">De Montford</h3>
@@ -162,6 +248,32 @@ on
 </span><!-- /.feed-entry-author.p-author.h-card -->
 <time class="dt-published" itemprop="datePublished" datetime="2023-05-29 15:31:39">
 May 29th, 2023</time>.
+</small><!-- /.discrete -->
+</footer>
+</article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
+
+
+<article id="comment1039726" class="feed-entry feed-entry--comment h-entry" itemscope itemtype="http://schema.org/Comment">
+<h3 class="feed-entry-title p-name" itemprop="name">De Montford, X:2</h3>
+<div class="e-content" itemprop="text">
+<p>
+a bourree, not a polka ;-)<br>
+Original score for pipes and Bass Clarinet.<br>
+composer: Jo Freya, arr: Jon Swayne<br>
+Non-commercial use permitted by blowzabella<br>
+source: Blowzabella. More Scores. ISBN 978-0-9549013-2-5, https://blowzabella.co.uk/shop</p>
+</div><!-- /.e-content -->
+<footer>
+<small class="discrete">
+<a rel="bookmark" class="u-url" itemprop="url" href="#comment1039726" title="link to this comment">↳</a>
+Posted by
+<span class="feed-entry-author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name" class="fn nickname p-name">
+SonjaA</span>
+on
+</span><!-- /.feed-entry-author.p-author.h-card -->
+<time class="dt-published" itemprop="datePublished" datetime="2026-11-05 10:24:50">
+November 5th, 2026</time>.
 </small><!-- /.discrete -->
 </footer>
 </article><!-- /.feed-entry(comment).h-entry itemscope:Comment-->
